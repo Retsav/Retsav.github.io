@@ -11,7 +11,7 @@ const config: Config = {
       maxWidth: {
         container: "1440px",
         contentContainer: "1140px",
-        containterSmall: "1024px",
+        containerSmall: "1024px",
         containerxs: "768px",
       },
       screens: {
@@ -40,6 +40,6 @@ const config: Config = {
       }
     },
   },
-  plugins: [],
+  plugins: [require('tailwind-scrollbar')],
 }
 export default config
