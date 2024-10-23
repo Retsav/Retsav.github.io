@@ -37,6 +37,15 @@ const config: Config = {
         textLight: "#ccd6f6",
         textDark: "#8892b0",
         hoverColor: "rgba(100,255,218,0.1)",
+      },
+      animation: {
+        'infinite-scroll': 'infinite-scroll 25s linear infinite',
+      },
+      keyframes: {
+        'infinite-scroll': {
+          from: {transform: 'translateX(0)'},
+          to: {transform: 'translateX(-100%)'},
+        }
       }
     },
   },
