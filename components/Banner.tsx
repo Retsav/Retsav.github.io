@@ -33,14 +33,14 @@ const Banner = () => {
             new concepts, and developing new projects to expand my knowledge and skill set. 
             I thrive in challenging environments and I'm excited about the endless possibilities that Unity offers.{" "}
         </motion.p>
-        <motion.button
+{/*        <motion.button
             initial={{y:10, opacity:0}}
             animate={{y:0, opacity:1}}
             transition={{duration:0.5, delay:0.9}}
             className={"w-52 h-14 text-[17px] font-titleFont border border-textGreen rounded-md text-textGreen tracking-wide hover:bg-hoverColor duration-300"}
         >
             Check out my Projects!
-        </motion.button>
+        </motion.button>*/}
     </section>;
 };
 

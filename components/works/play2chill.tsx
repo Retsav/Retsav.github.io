@@ -17,23 +17,33 @@ const Playchill = () => {
             <ul className={"mt-6 flex flex-col gap-3"}>
                 <li className={"text-[17px] flex gap-2 text-textDark"}>
                     <span className={"text-textGreen mt-1"}>
-                        <TiArrowForward />
+                        <TiArrowForward/>
                     </span>
-                    B2B contract where I participated in playtesting sessions, analyzed core gameplay mechanics, and evaluated the overall user experience.
+                    Collaborated with designers to develop tools and systems, enabling streamlined workflows for
+                    creating
+                    game mechanics and UI components.
                 </li>
                 <li className={"text-[17px] flex gap-2 text-textDark"}>
                     <span className={"text-textGreen mt-1"}>
-                        <TiArrowForward />
+                        <TiArrowForward/>
                     </span>
-                    Assesed game balance and difficulty levels to ensure a satisfying and challenging gameplay.
+                    Implemented and optimized UI elements, ensuring accurate reproduction from Figma of the designer's
+                    vision and
+                    maintaining consistency across the game.
                 </li>
                 <li className={"text-[17px] flex gap-2 text-textDark"}>
                     <span className={"text-textGreen mt-1"}>
-                        <FaLightbulb />
+                        <TiArrowForward/>
                     </span>
-                    This job allowed me to learn a lot how developing games in professional setting looks like. Overall,
-                    participating in playtests within a professional studio expanded my skill set, providing a better
-                    understanding of the game development process.
+                    Debugged and resolved backend issues, ensuring smooth gameplay and reliable system performance.
+                </li>
+                <li className={"text-[17px] flex gap-2 text-textDark"}>
+                    <span className={"text-textGreen mt-1"}>
+                        <FaLightbulb/>
+                    </span>
+                    This role taught me how to implement various backend systems and refine gameplay through bug fixing,
+                    enhancing my problem-solving skills and teamwork in a professional studio environment. Also i learned
+                    close collaboration with my colleagues.
                 </li>
             </ul>
         </motion.div>
