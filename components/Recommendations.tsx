@@ -1,11 +1,11 @@
 ﻿import React from "react";
 import SectionTitle from "@/components/SectionTitle";
 
-// Sample recommendation data
+
 const recommendations = [
     {
         name: "John Doe",
-        image: "/path/to/image.jpg", // Replace with actual image paths
+        image: "/path/to/image.jpg", 
         text: "Dominik is an exceptional developer! His dedication and skillset helped our project succeed.",
     },
     {
