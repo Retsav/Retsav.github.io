@@ -1,5 +1,13 @@
 ﻿import React, { useEffect, useRef } from "react";
+import Image from "next/image"; // Importing the Image component
 import SectionTitle from "@/components/SectionTitle";
+import {
+    unitylogo,
+    riderlogo,
+    csharplogo,
+    plasticlogo,
+    zenjectlogo
+} from "@/public/assets"; // Make sure these are correctly exported
 
 const TechStack = () => {
     const carouselRef = useRef<HTMLDivElement | null>(null);
@@ -45,36 +53,36 @@ const TechStack = () => {
             id="TechStack"
             className="max-w-containerSmall mx-auto py-10 lgl:py-32 flex flex-col gap-8 relative"
         >
-            <SectionTitle title={"TechStack"} titleNo={"010"} />
+            <SectionTitle title={"Tech Stack"} titleNo={"02"} />
             <div
                 ref={carouselRef}
                 className="w-full inline-flex flex-nowrap overflow-hidden relative [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)]"
             >
                 <ul className="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none">
                     <li>
-                        <img src="./facebook.svg" alt="Facebook" />
+                        <Image src={unitylogo} alt="Unity" width={150} height={150}/>
                     </li>
                     <li>
-                        <img src="./disney.svg" alt="Disney" />
+                        <Image src={riderlogo} alt="Rider" width={150} height={150}/>
                     </li>
                     <li>
-                        <img src="./airbnb.svg" alt="Airbnb" />
+                        <Image src={csharplogo} alt="C#" width={150} height={150}/>
                     </li>
                     <li>
-                        <img src="./apple.svg" alt="Apple" />
+                        <Image src={plasticlogo} alt="Plastic SCM" width={150} height={150}/>
                     </li>
                     <li>
-                        <img src="./spark.svg" alt="Spark" />
+                        <Image src={zenjectlogo} alt="Zenject" width={150} height={150}/>
+                    </li>
+{/*                    <li>
+                        <Image src={samsunglogo} alt="Samsung" />
                     </li>
                     <li>
-                        <img src="./samsung.svg" alt="Samsung" />
+                        <Image src={quoralogo} alt="Quora" />
                     </li>
                     <li>
-                        <img src="./quora.svg" alt="Quora" />
-                    </li>
-                    <li>
-                        <img src="./sass.svg" alt="Sass" />
-                    </li>
+                        <Image src={sasslogo} alt="Sass" />
+                    </li>*/}
                 </ul>
             </div>
         </section>

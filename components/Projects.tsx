@@ -7,7 +7,7 @@ import {TbBrandGithub, TbBrandSteam} from "react-icons/tb";
 const Projects = () => {
     return (
         <section id={"project"} className={"max-w-container mx-auto lgl:px-20 py-24"}>
-            <SectionTitle title={"Some projects I worked on!"} titleNo={"03"}/>
+            <SectionTitle title={"Some projects I worked on!"} titleNo={"04"}/>
             <div className={"w-full flex flex-col items-center justify-between gap-28 mt-10"}>
                 <div className={"w-full flex flex-col items-center justify-center gap-28 mt-10"}>
                     <div className={"flex flex-col xl:flex-row gap-6"}>
