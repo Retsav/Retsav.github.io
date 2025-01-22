@@ -13,4 +13,5 @@ import zenjectlogo from "./images/techstack_logos/zenject-logo.png"
 import krzychu from "./images/recomandations/krzychu.jpg"
 import milosz from "./images/recomandations/milosz.jpg"
 
+
 export { profileImg, logo, icon, pongImg, bartrashersImg, farmingsimulationImg, aztecsthelastsun, unitylogo, riderlogo, csharplogo, plasticlogo, zenjectlogo, krzychu, milosz };

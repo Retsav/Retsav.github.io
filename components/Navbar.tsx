@@ -44,14 +44,15 @@ const Navbar = () => {
                 <ul className="flex text-[20px] gap-10">
                     <Link href="#home"
                           onClick={handleScroll}
-                    className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
+                          className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
                     >
                         <motion.li
-                            initial={{y: -10, opacity:0}}
-                            animate={{y: 0, opacity:1}}
+                            initial={{y: -10, opacity: 0}}
+                            animate={{y: 0, opacity: 1}}
                             transition={{duration: 0.1}}
                         >
-                            Home</motion.li>
+                            Home
+                        </motion.li>
                     </Link>
                     <Link className="flex items-center gap-1 font-medium text-textDark
                     hover:text-textGreen cursor-pointer duration-300 nav-link"
@@ -61,9 +62,22 @@ const Navbar = () => {
                         <motion.li initial={{y: -10, opacity: 0}}
                                    animate={{y: 0, opacity: 1}}
                                    transition={{duration: 0.1, delay: 0.1}}
-                                   >
+                        >
                             <span className={"text-textGreen"}>01.</span>
                             About
+                        </motion.li>
+                    </Link>
+                    <Link className="flex items-center gap-1 font-medium text-textDark
+                    hover:text-textGreen cursor-pointer duration-300 nav-link"
+                          href="#techstack"
+                          onClick={handleScroll}
+                    >
+                        <motion.li initial={{y: -10, opacity: 0}}
+                                   animate={{y: 0, opacity: 1}}
+                                   transition={{duration: 0.1, delay: 0.1}}
+                        >
+                            <span className={"text-textGreen"}>02.</span>
+                            Tech Stack
                         </motion.li>
                     </Link>
                     <Link className="flex items-center gap-1 font-medium text-textDark
@@ -75,7 +89,7 @@ const Navbar = () => {
                                    animate={{y: 0, opacity: 1}}
                                    transition={{duration: 0.1, delay: 0.2}}
                         >
-                            <span className={"text-textGreen"}>02.</span>
+                            <span className={"text-textGreen"}>03.</span>
                             Experience
                         </motion.li>
                     </Link>
@@ -88,8 +102,21 @@ const Navbar = () => {
                                    animate={{y: 0, opacity: 1}}
                                    transition={{duration: 0.1, delay: 0.3}}
                         >
-                            <span className={"text-textGreen"}>03.</span>
+                            <span className={"text-textGreen"}>04.</span>
                             Project
+                        </motion.li>
+                    </Link>
+                    <Link className="flex items-center gap-1 font-medium text-textDark
+                    hover:text-textGreen cursor-pointer duration-300 nav-link"
+                          href="#recommendations"
+                          onClick={handleScroll}
+                    >
+                        <motion.li initial={{y: -10, opacity: 0}}
+                                   animate={{y: 0, opacity: 1}}
+                                   transition={{duration: 0.1, delay: 0.1}}
+                        >
+                            <span className={"text-textGreen"}>05.</span>
+                            Recommendations
                         </motion.li>
                     </Link>
                     <Link className="flex items-center gap-1 font-medium text-textDark
@@ -101,7 +128,7 @@ const Navbar = () => {
                                    animate={{y: 0, opacity: 1}}
                                    transition={{duration: 0.1, delay: 0.4}}
                         >
-                            <span className={"text-textGreen"}>04.</span>
+                            <span className={"text-textGreen"}>06.</span>
                             Contact
                         </motion.li>
                     </Link>
@@ -112,15 +139,24 @@ const Navbar = () => {
                     transition={{delay: 0.5}}
                     className={"px-4 py-2 rounded-md text-textGreen text-[20px] border border-textGreen hover:bg-hoverColor duration-300"}
                 >
-                    Resume
+                    {/* Update: Open PDF in new tab */}
+                    <a
+                        href="/assets/DominikDadanskiCV.pdf"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        Resume
+                    </a>
                 </motion.button>
             </div>
             {/*Icon section"*/}
-            <div 
-                onClick={()=>setShowMenu(true)}
+            <div
+                onClick={() => setShowMenu(true)}
                 className="w-6 h-5 flex flex-col justify-between items-center mdl:hidden text-4xl text-textGreen cursor-pointer overflow-hidden group">
-                <span className="w-full h-[2px] bg-textGreen inline-flex transform group-hover:translate-x-2 transition-all ease-in-out duration-300"></span>
-                <span className="w-full h-[2px] bg-textGreen inline-flex transform translate-x-3 group-hover:translate-x-0 transition-all ease-in-out duration-300"></span>
+                <span
+                    className="w-full h-[2px] bg-textGreen inline-flex transform group-hover:translate-x-2 transition-all ease-in-out duration-300"></span>
+                <span
+                    className="w-full h-[2px] bg-textGreen inline-flex transform translate-x-3 group-hover:translate-x-0 transition-all ease-in-out duration-300"></span>
                 <span className="w-full h-[2px] bg-textGreen inline-flex transform translate-x-1 group-hover:translate-x-3 transition-all ease-in-out duration-300"></span>
             </div>
             {

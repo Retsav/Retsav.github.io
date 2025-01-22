@@ -5,7 +5,9 @@ import { krzychu, milosz } from "@/public/assets";
 
 const Recommendations: React.FC = () => {
     return (
-        <section className="max-w-containerSmall mx-auto py-10 lgl:py-32 flex flex-col gap-8">
+        <section
+            id={"recommendations"}    
+            className="max-w-containerSmall mx-auto py-10 lgl:py-32 flex flex-col gap-8">
             <SectionTitle title="Recommendations" titleNo="05" />
 
             {/* Force the elements side by side by using flex-nowrap */}

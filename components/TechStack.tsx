@@ -50,7 +50,7 @@ const TechStack = () => {
 
     return (
         <section
-            id="TechStack"
+            id="techstack"
             className="max-w-containerSmall mx-auto py-10 lgl:py-32 flex flex-col gap-8 relative"
         >
             <SectionTitle title={"Tech Stack"} titleNo={"02"} />
