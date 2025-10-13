@@ -141,7 +141,7 @@ const Navbar = () => {
                 >
                     {/* Update: Open PDF in new tab */}
                     <a
-                        href="/assets/DominikDadanskiCV.pdf"
+                        href="/assets/DominikDadanski_JuniorProgrammer_CV.pdf"
                         target="_blank"
                         rel="noreferrer"
                     >
